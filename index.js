@@ -1,6 +1,15 @@
-let a = 123;
-console.log(a);
-console.log(typeof a);
-let b = Boolean(a);
-console.log(b);
-console.log(typeof b);
+greet();
+
+function greet() {
+  console.log("hello this is balaji nice to meet you");
+}
+
+let sum = function () {
+  console.log(10 + 20);
+};
+
+sum();
+
+let mul = (a, b) => a * b;
+
+mul(10, 20);

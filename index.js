@@ -1,15 +1,14 @@
-greet();
-
-function greet() {
-  console.log("hello this is balaji nice to meet you");
+function squareRoot(x) {
+  return Math.sqrt(x);
 }
 
-let sum = function () {
-  console.log(10 + 20);
-};
+function square(x) {
+  return x * x;
+}
 
-sum();
+let arr = [1, 2, 4, 9, 6];
 
-let mul = (a, b) => a * b;
+let result = arr.map(square);
 
-mul(10, 20);
+console.log("old array", arr);
+console.log("new Array ", result);
